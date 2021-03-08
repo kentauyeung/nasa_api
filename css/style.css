@@ -1,0 +1,23 @@
+body {
+  font-family: sans-serif;
+}
+
+.apod {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  margin: 5em 15em;
+}
+
+img {
+  width: 80%;
+}
+
+.text_container {
+  max-width: 300px;
+}
+
+.explanation {
+  font-size: .8rem;
+  line-height: 1.5;
+}
