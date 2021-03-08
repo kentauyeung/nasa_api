@@ -17,7 +17,27 @@ img {
   max-width: 300px;
 }
 
+.title {
+  margin-top: 0;
+}
+
 .explanation {
   font-size: .8rem;
   line-height: 1.5;
+  margin-bottom: 80px;
+}
+
+.nasa_link {
+  background: #0b3d91;
+  color: #fff;
+  padding: 10px 20px;
+  width: 35%;
+  text-align: center;
+}
+
+.nasa_link:hover {
+  background: #39719e;
+}
+.nasa_link:visited {
+  color: #fff;
 }

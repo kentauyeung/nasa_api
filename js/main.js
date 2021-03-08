@@ -5,7 +5,8 @@ fetch(url)
   .then(data => {
     console.log(data)
     document.querySelector('img').src = data.hdurl
-    document.querySelector('a').src = data.hdurl
+    document.querySelector('img').alt = data.title
+    document.querySelector('.apod_img').href = data.url
     document.querySelector('h1').innerText = data.title
     document.querySelector('p').innerText = data.explanation
     // console.log()
